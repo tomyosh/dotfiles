@@ -1,0 +1,57 @@
+ tap homebrew/binary
+tap phinze/homebrew-cask
+install ack
+install autoconf
+install binutils
+install curl
+install git
+install gnu-sed
+install libtool
+install openssl
+install w3m
+install wget
+install tmux
+install osxfuse
+install sshfs
+# zshは/etcを参照しないようにする(参考：brew info zsh)
+install zsh --disable-etcdir
+install fontforge
+install reattach-to-user-namespace
+
+
+# 以下mac用アプリを入れる
+install brew-cask
+cask install --force dropbox
+cask install --force google-chrome
+cask install --force skype
+cask install --force vagrant
+cask install --force virtualbox
+cask install --force iterm2
+cask install --force bettertouchtool
+cask install --force alfred
+cask install --force coteditor
+cask install --force vmware-fusion
+cask install --force clipmenu
+cask install --force sequel-pro
+cask install --force sublime-text
+cask install --force skitch
+cask install --force totalfinder
+cask install --force firefox
+cask install --force openoffice
+cask install --force bettertouchtool
+cask install --force google-japanese-ime
+cask install --force the-unarchiver
+cask install --force bartender
+cask install --force appcleaner
+cask install --force flash
+cask install --force libreoffice
+cask install --force silverlight
+cask install --force vlc
+cask install --force codekit
+cask install --force poedit
+cask install --force imageoptim
+
+cask alfred link
+
+
+#cask install --force KeyRemap4MacBook
